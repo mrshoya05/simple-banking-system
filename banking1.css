@@ -1,0 +1,27 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(175, 76, 73, 0.938);
+  }
+  
+  h1 {
+    color: #333;
+
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(150, 126, 173, 0.63);
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+  .bdy{
+    background-color: rgb(192, 37, 37);
+  }
+  
