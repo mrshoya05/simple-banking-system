@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Banking System</title>
+  <link rel="stylesheet" type="text/css" href="banking1.css">
+</head>
+<body class="bdy">
+  <div class="container">
+    <h1>Simple Banking System</h1>
+    <div id="balance">
+      <h3>Your Balance: $<span id="balanceAmount">1000</span></h3>
+    </div>
+    <div id="transfer">
+      <h3>Transfer Money</h3>
+      <label for="recipient">Recipient:</label>
+      <input type="text" id="recipient">
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount">
+      <button onclick="transferMoney()">Transfer</button>
+    </div>
+  </div>
+
+  <script src="banking1.js"></script>
+</body>
+</html>
